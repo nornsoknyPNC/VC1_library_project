@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practise</title>
+</head>
+<body>
+    <h2>Persional Information</h2>
+    <form action="practises.php"  method="post">
+    First Name: <input type="text" name="username" id="file"><br><br>
+    Password:    <input type="password" name="password" id="file"><br><br>
+
+    Gender : <input type="radio" name="radio" value="Girl">Female
+             <input type="radio" name="radio" value="Boy">Male <br><br>
+
+     Status:  <select name="select" id="file">
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+        </select> <br><br>
+
+    Interest : <br> <br> <input type="checkbox" name="interest[]" value="Dancing">Dancing <br>
+               <br> <input type="checkbox" name="interest[]" value="Reading">Reading <br>
+               <br> <input type="checkbox" name="interest[]" value="Watch">Watch Movie <br><br>
+    <input type="submit" name="submit" id="file" value="Send" style= "background: blue">
+    </form>
+</body>
+</html>

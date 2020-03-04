@@ -1,0 +1,286 @@
+
+p1{
+    float: right;
+    margin-top: 24px;
+    font-size:  22px;
+    color: #fff;
+    margin-right: 20px;
+   
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    background:teal;
+    margin: 0;
+   
+}
+.menu{
+    float: left;
+
+}
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    color: #fff;
+    font-size: 20px;
+}
+li a:hover{
+    background:#0091ea;
+}
+.sub-menu{
+    display:none;
+    position: absolute;
+    background:teal;
+    
+}
+ul li:hover .sub-menu{
+    display: block;
+}
+.sub{
+    padding: 0;
+    margin: 10px;
+   
+}
+img{
+    float: right;
+    margin-top: 8px;
+}
+
+
+/*Rule of Book*/
+
+h3{
+    margin-left: 40px;
+    font-size: 20px;
+    margin-bottom: 0;
+    
+}
+
+h4{
+    float: right;
+    margin-right: 35px;
+    color:white;
+    font-size: 19px;
+}
+.head-title{
+    border-bottom: 2px solid #4db6ac;
+    margin: 30px;
+    padding-bottom: 9px;
+    margin-top: 70px;
+}
+span{
+    background:#4db6ac;
+    padding: 10px;
+    color: #fff;
+}
+.list-rule ul{
+    background:white;
+}
+
+
+.container{
+    width: 99%;
+    margin-top: 100px;
+    margin: 0 auto;
+
+}
+.row    {
+    display:flex;
+}
+.col-4{
+    width: 35%;
+    margin-left: 20px;
+    height: 300px;
+    background: #000; 
+}
+.col-4:hover{
+    background: #000;
+    opacity: 0.6;
+}
+.row-text{
+    display: flex;
+}
+.col-4a{
+    width: 35%;
+    height: 80px;
+    background: #ccc;
+    margin-left: 20px;
+    height: 150px;
+    box-shadow: 5px 10px 8px #888888;
+   
+}
+#container{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: -0;
+}
+.container .row .col-4:nth-child(1){
+    background-image: url("../imgs/2.jpg");
+    background-size: cover;
+}
+p{
+    margin: 15px;
+    padding: 10px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+.container .row .col-4:nth-child(2){
+    background-image: url("../imgs/1.jpg");
+    background-size: cover;
+}
+.container .row .col-4:nth-child(3){
+    background-image: url("../imgs/3.jpg");
+    background-size: cover;
+}
+.container-col{
+    width: 99%;
+    margin-top: 100px;
+    margin: 0 auto;
+   
+}
+.row-col    {
+    display:flex;
+}
+.col-4b{
+    width: 35%;
+    margin-left: 20px;
+    height: 300px;
+    background: #000;
+    
+}
+.col-4b:hover{
+    background: #000;
+    opacity: 0.6;
+}
+.row-text1{
+    display: flex;
+}
+.col-4c{
+    width: 35%;
+    height: 80px;
+    background: #ccc;
+    margin-left: 20px;
+    height: 150px;
+    box-shadow: 5px 10px 8px #888888;
+}
+#container-text{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: -0;
+}
+.container-col .row-col .col-4b:nth-child(1){
+    background-image: url("../imgs/4.jpg");
+    background-size: cover;
+}
+.container-col .row-col .col-4b:nth-child(2){
+    background-image: url("../imgs/5.jpg");
+    background-size: cover;
+}
+.container-col .row-col .col-4b:nth-child(3){
+    background-image: url("../imgs/6.jpg");
+    background-size: cover;
+}
+.container-col4{
+    width: 100%;
+    margin-top: 100px;
+    margin: 0 auto;
+
+}
+.row-col-4    {
+    display:flex;
+}
+.col-4d{
+    width: 35%;
+    margin-left: 20px;
+    height: 300px;
+    background: #000;
+    
+}
+.col-4d:hover{
+    background: #000;
+    opacity: 0.6;
+}
+.row-text2{
+    display: flex;
+}
+.col-4e{
+    width: 35%;
+    height: 80px;
+    background: #ccc;
+    margin-left: 20px;
+    margin-bottom: 100px;
+    height: 150px;
+    box-shadow: 5px 10px 8px #888888;
+}
+#containers{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: -0;
+}
+.container-col4 .row-col-4 .col-4d:nth-child(1){
+    background-image:url("../imgs/10.jpg");
+    background-size: cover;
+}
+.container-col4 .row-col-4 .col-4d:nth-child(2){
+    background-image:url("../imgs/11.jpg");
+    background-size: cover;
+}
+.container-col4 .row-col-4 .col-4d:nth-child(3){
+    background-image:url("../imgs/12.jpg");
+    background-size: cover;
+}
+
+
+/*footer*/
+
+.container-footer{
+    width: 100%;
+    height: 200px;
+    background: teal;
+}
+.footer{
+   display: flex;
+}
+.col-4book{
+    width: 33%;
+    text-align: center;
+}
+h5{
+    margin-top: 80px;
+    color:#ccc;
+    font-size: 20px;
+}
+.col-4book:nth-child(3) img{
+    width: 85px;
+    height: 85px;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+h6{
+    margin-top: 90px;
+    font-size: 15px;
+    color:white;
+}
+.h6{
+    width: 60%;
+    margin-left: 70px;
+}
+.col-4book:nth-child(1) img{
+    width: 100px;
+    height: 35px;
+    padding: 5px;
+    margin-top: 10px;
+
+  
+}
+.col-6a{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
